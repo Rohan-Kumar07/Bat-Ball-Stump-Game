@@ -1,0 +1,46 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  height: 400px;
+  width: 400px;
+  background-color: lightslategray;
+  border-radius: 10px;
+}
+
+#heading{
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#disclaimer{
+  margin: 20px;
+  color: blue;
+}
+
+.game-btn{
+  height: 40px;
+  width: 75px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+
+#btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
